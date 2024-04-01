@@ -1,0 +1,20 @@
+@use 'styles';
+main {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+  padding: 20px;
+}
+p {
+  padding: 20px;
+}
+iframe {
+  width: 100vw;
+  height: 600px;
+  max-height: 100vh;
+}
